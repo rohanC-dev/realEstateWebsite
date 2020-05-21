@@ -1,0 +1,15 @@
+#searchBoxDropdown {
+    padding: 10px;
+    width: 324px;
+    float: left;
+}
+
+#typeOfHomeDropdown {
+    padding: 10px;
+    float: left;
+}
+
+#typeOfHomeSelector {
+    border: 1px solid gray;
+    float: left;
+}
