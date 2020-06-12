@@ -35,6 +35,20 @@ app.get("/seller/:type", function(req, res){
     }  
 });
 
+app.get("/buyer/:type", function(req, res){
+    if(req.params.type == "house"){
+        res.render("buyer/buying-a-house");
+    }
+});
+
+app.get("/mortgage/:type", function(req, res){
+    if(req.params.type == "explanation"){
+        res.render("mortgage/what-is-mortgage");
+    }else if(req.params.type == "type"){
+        res.render("mortgage/type-of-mortgage");
+    }
+});
+
 
 
 

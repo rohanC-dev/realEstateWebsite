@@ -26,3 +26,27 @@
     color: black;
 }
 
+.carousel-item img{
+    object-fit: cover;
+  height: 500px;
+}
+
+body {
+    position: relative;
+    /* required */
+}
+
+.list-group {
+    position: sticky;
+    /* Supported in latest version of Chrome, Firefox, Safari, Opera and Edge browsers */
+    top: 15px;
+}
+
+#navbar-scrollspy {
+    position: sticky;
+    top: 15px;
+}
+
+.container .jumbotron h5{
+    color: black;
+}
