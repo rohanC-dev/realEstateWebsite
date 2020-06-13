@@ -46,6 +46,14 @@ app.get("/mortgage/:type", function(req, res){
         res.render("mortgage/what-is-mortgage");
     }else if(req.params.type == "type"){
         res.render("mortgage/type-of-mortgage");
+    }else if(req.params.type == "glossary"){
+        res.render("mortgage/mortgage-glossary");
+    }else if(req.params.type == "steps"){
+        res.render("mortgage/mortgage-application-steps");
+    }else if(req.params.type == "tips"){
+        res.render("mortgage/mortgage-application-tips");
+    }else if(req.params.type == "term"){
+        res.render("mortgage/choose-mortgage-term");
     }
 });
 
