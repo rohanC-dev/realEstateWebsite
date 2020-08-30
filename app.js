@@ -44,6 +44,20 @@ app.get("/buyer/:type", function(req, res){
         res.render("buyer/the-cost-of-home-buyer");
     }else if(req.params.type == "the-elements-of-an-offer"){
         res.render("buyer/the-elements-of-an-offer");
+    }else if(req.params.type == "working-with-realtor"){
+        res.render("buyer/working-with-realtor");
+    }else if(req.params.type == "tips-for-choosing-a-realtor"){
+        res.render("buyer/tips-for-choosing-a-realtor");
+    }else if(req.params.type == "save-money"){
+        res.render("buyer/save-money");
+    }else if(req.params.type == "why-move"){
+        res.render("buyer/why-move");
+    }else if(req.params.type == "moving-tips"){
+        res.render("buyer/moving-tips");
+    }else if(req.params.type == "home-inspection"){
+        res.render("buyer/home-inspection");
+    }else if(req.params.type == "market-conditions"){
+        res.render("buyer/market-conditions");
     }
 });
 
