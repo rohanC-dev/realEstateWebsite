@@ -42,6 +42,8 @@ app.get("/buyer/:type", function(req, res){
         res.render("buyer/renting-vs-buying");
     }else if(req.params.type == "the-cost-of-home-buyer"){
         res.render("buyer/the-cost-of-home-buyer");
+    }else if(req.params.type == "the-elements-of-an-offer"){
+        res.render("buyer/the-elements-of-an-offer");
     }
 });
 
